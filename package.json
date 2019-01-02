@@ -1,0 +1,22 @@
+{
+  "name": "elastic-tunnel",
+  "version": "0.0.1",
+  "main": "elastic-tunnel.js",
+  "author": "Carimus <connect@carimus.com>, Brandon Phillips <brandonp@carimus.com>",
+  "license": "MIT",
+  "bin": {
+    "elastic-tunnel": "./elastic-tunnel.js"
+  },
+  "scripts": {
+    "elastic-tunnel": "node ./elastic-tunnel.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.382.0",
+    "chalk": "^2.4.1",
+    "ssh2-promise": "^0.1.3",
+    "yargs": "^12.0.5"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
