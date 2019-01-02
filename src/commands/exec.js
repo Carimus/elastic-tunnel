@@ -33,7 +33,11 @@ module.exports = async ({
 
   const environmentResources = await getEBEnvironmentResources(environment)
 
-  // const accessInstance = resolveAccessInstance()
+  // TODO Resolve actual private key
+  // TODO Resolve actual access instance's remote IP address
+  // TODO Pick a target instance and resolve its internal network IP address
+  // TODO Start an SSH tunnel through the access instance to the SSH port on the target instance
+  // TODO Execute a command
 
   console.log(environmentResources)
 }
